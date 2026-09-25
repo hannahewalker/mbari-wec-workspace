@@ -1,0 +1,23 @@
+#
+# Batch-Specific Scalar Parameters
+#
+duration: 10
+seed: 42
+physics_rtf: 11
+#
+# Run-Specific Parameters (Test Matrix)
+#
+physics_step: [0.001]
+door_state: ['closed']
+scale_factor: [0.5]
+enable_gui: False
+# May specify vector/scalar battery_soc (0.0 to 1.0) or battery_emf (270V to 320V)
+battery_soc: [0.25]
+# battery_emf: [282.5, 295.0, 307.5, 320.0]
+IncidentWaveSpectrumType:
+ - MonoChromatic:
+     # A & T may be vector/scalar in pairs (A & T same length)
+     A: [2.0, 2.5]
+     T: [14.0, 16.0]
+
+

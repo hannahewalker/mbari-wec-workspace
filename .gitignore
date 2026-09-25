@@ -1,0 +1,7 @@
+build/
+install/
+log/
+src/
+batch_results_*/
+latest_batch_results
+*~

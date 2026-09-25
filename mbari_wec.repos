@@ -1,0 +1,17 @@
+repositories:
+  TheNextWave:
+    type: git
+    url: https://github.com/mbari-org/TheNextWave.git
+    version: c704595af25e69315057b912c42808459ec4cfdf
+  mbari_wec:
+    type: git
+    url: https://github.com/osrf/mbari_wec
+    version: a8f2c6be30c26bf2b1326e997bc350102e12753d
+  mbari_wec_gz:
+    type: git
+    url: https://github.com/osrf/mbari_wec_gz
+    version: 158cbf882e0241d2d3179a0379b751a186b76280
+  mbari_wec_utils:
+    type: git
+    url: https://github.com/osrf/mbari_wec_utils
+    version: e5c08a3451607b614f56dc97cd34da9f16a4080b
