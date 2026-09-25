@@ -1,0 +1,22 @@
+#
+# Batch-Specific Scalar Parameters
+#
+duration: 300
+seed: 42
+physics_rtf: 11
+enable_gui: False
+#
+# Run-Specific Parameters (Test Matrix)
+#
+physics_step: 0.01
+door_state: ['closed']
+scale_factor: [1.0]
+battery_soc: 0.5
+# Incident wave direction: compass degrees True, waves coming FROM
+# (direction of the CDIP band with the highest Szz)
+wave_dir: [230.382]
+IncidentWaveSpectrumType:
+  # CDIP 156 2016-03-19 02:23 to 2016-03-19 03:53 UTC mean: n = 4, Hs = 1.195 m, wave_dir = 230.382
+  - Custom:
+      f: [0.03333, 0.03939, 0.05051, 0.05903, 0.06696, 0.07738, 0.09167, 0.1125, 0.14583, 0.33333, 0.5]
+      Szz: [0.0, 0.01444, 0.099, 0.234, 0.462, 0.2499, 0.2355, 0.214, 0.1374, 0.19312, 0.0]
